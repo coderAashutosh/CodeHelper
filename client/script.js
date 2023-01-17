@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
     const response = await fetch
         (
             // "http://localhost:5000",
-            "https://code-helper.onrender.com",
+            "https://code-helper.onrender.com/",
 
             {
                 method: 'POST',
